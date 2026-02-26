@@ -8,7 +8,7 @@ const Navbar = () => (
     <div className="container mx-auto flex items-center justify-between h-16 px-4">
       <a href="#" className="flex items-center gap-2">
         <Leaf className="h-7 w-7 text-secondary" />
-        <span className="text-xl font-display font-bold text-foreground">Krishi<span className="text-primary">Market</span></span>
+        <span className="text-xl font-display font-bold text-foreground">FormForce<span className="text-primary"> Market</span></span>
       </a>
       <div className="hidden md:flex items-center gap-8">
         <a href="#home" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Home</a>
@@ -79,13 +79,13 @@ const AboutSection = () => (
         <div>
           <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">About</p>
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-            Welcome to Krishi-Market
+            Welcome to FormForce Market
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed mb-4">
             <strong className="text-foreground">Buy and Sell Your Agricultural Produce Online</strong> — Where Farmers Meet Buyers Directly.
           </p>
           <p className="text-muted-foreground font-body leading-relaxed mb-6">
-            Krishi-Market is a free platform that empowers farmers to sell their produce directly to buyers — eliminating middlemen and ensuring better profits. India is home to one of the largest agricultural markets in the world, and there's a growing need for a unified digital space that connects farmers across regions.
+            FormForce Market is a free platform that empowers farmers to sell their produce directly to buyers — eliminating middlemen and ensuring better profits. India is home to one of the largest agricultural markets in the world, and there's a growing need for a unified digital space that connects farmers across regions.
           </p>
           <Button variant="default" size="lg">Learn More</Button>
         </div>
@@ -106,7 +106,7 @@ const CategoriesSection = () => (
   <section id="categories" className="py-20 bg-section-alt">
     <div className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Krishi Market</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">FormForce Market</p>
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">Buy and Sell Categories</h2>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -126,7 +126,7 @@ const CategoriesSection = () => (
 
 const steps = [
   { num: "01", title: "Register Your Account", desc: "Farmers need to register their contact details to create an account." },
-  { num: "02", title: "Publish Listing", desc: "Sell products through Krishi Market — publish your particular produce." },
+  { num: "02", title: "Publish Listing", desc: "Sell products through FormForce Market — publish your particular produce." },
   { num: "03", title: "Get Direct Calls from Buyers", desc: "Buyers contact you directly through your available contact details." },
 ];
 
@@ -134,9 +134,9 @@ const HowItWorksSection = () => (
   <section id="how-it-works" className="py-20 bg-card">
     <div className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Krishi Market</p>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">FormForce Market</p>
         <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">How It Works</h2>
-        <p className="text-muted-foreground max-w-xl mx-auto">Farmers can sell all products through Krishi Market.</p>
+        <p className="text-muted-foreground max-w-xl mx-auto">Farmers can sell all products through FormForce Market.</p>
       </div>
       <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {steps.map((s, i) => (
@@ -166,8 +166,8 @@ const WhySection = () => (
   <section className="py-20 bg-background">
     <div className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Krishi Market</p>
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">Why Krishi-Market</h2>
+        <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-2">FormForce Market</p>
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground">Why FormForce Market</h2>
       </div>
       <div className="grid md:grid-cols-3 gap-8">
         {whyReasons.map((r, i) => (
@@ -228,7 +228,7 @@ const Footer = () => (
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Leaf className="h-6 w-6 text-primary" />
-            <span className="text-xl font-display font-bold">Krishi<span className="text-primary">Market</span></span>
+            <span className="text-xl font-display font-bold">FormForce<span className="text-primary"> Market</span></span>
           </div>
           <p className="text-card/70 text-sm leading-relaxed">Empowering farmers to sell their produce directly to buyers — eliminating middlemen and ensuring better profits.</p>
         </div>
@@ -245,7 +245,7 @@ const Footer = () => (
           <h4 className="font-display font-semibold text-lg mb-4">Contact Us</h4>
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2 text-sm text-card/70"><Phone className="h-4 w-4 text-primary" /> +91 98765 43210</div>
-            <div className="flex items-center gap-2 text-sm text-card/70"><Mail className="h-4 w-4 text-primary" /> info@krishimarket.com</div>
+            <div className="flex items-center gap-2 text-sm text-card/70"><Mail className="h-4 w-4 text-primary" /> info@formforcemarket.com</div>
             <div className="flex items-center gap-2 text-sm text-card/70"><MapPin className="h-4 w-4 text-primary" /> Bengaluru, India</div>
           </div>
           <div className="flex gap-4 mt-4">
@@ -256,7 +256,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t border-card/10 mt-12 pt-6 text-center">
-        <p className="text-xs text-card/50">© 2025 KrishiMarket. All rights reserved.</p>
+        <p className="text-xs text-card/50">© 2025 FormForce Market. All rights reserved.</p>
       </div>
     </div>
   </footer>
